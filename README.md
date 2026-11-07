@@ -32,6 +32,7 @@ Orbit is a fictional product concept. Dashboard values are sample data; no live 
 1. In Netlify, choose **Add new project → Import an existing project** and select this GitHub repository.
 2. Keep the production branch as `main`.
 3. The repository includes `netlify.toml`; use Node.js 22 and the Next.js runtime plugin declared there.
-4. Trigger the first production deploy, then use the generated `.netlify.app` URL as the canonical site URL before adding sitemap and canonical metadata.
+4. Set `NEXT_PUBLIC_SITE_URL` to the generated primary `.netlify.app` URL in Netlify site environment variables.
+5. Trigger the first production deploy. The sitemap and Open Graph metadata use this URL; they remain unset until the environment variable is configured.
 
 Every push to `main` should trigger a production deploy after the repository is connected. The repository is prepared for Netlify; this README does not imply that a Netlify site has already been created or deployed.

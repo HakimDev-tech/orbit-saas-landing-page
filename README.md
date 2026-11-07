@@ -1,32 +1,28 @@
-# Orbit
+# Orbit — Workflow workspace
 
-**Less noise. More clarity.**
+A fictional B2B SaaS concept for small teams that need repeatable operations without losing human oversight.
 
-Orbit is a fictional SaaS product concept designed to help small teams organize incoming requests, manage operational workflows, and maintain visibility over ongoing work.
+## Art direction
 
-The concept addresses a common operational problem: important tasks and requests become scattered across messages, documents, and disconnected tools.
+A dark, almost-black green workspace with a single acid-lime signal color, restrained mono labels, oversized typographic statements, and a realistic product surface as the main visual. No gradient fog, AI-generated abstract hero art, floating glass cards, or fabricated customer proof. The dashboard preview uses meaningful workflow rows, run counts, statuses and step sequences.
 
-Orbit presents a centralized workspace where teams can organize requests, track progress, assign responsibilities, and understand what needs attention.
+## Product story
 
-The project demonstrates the ability to translate a software product concept into a clear marketing narrative and a convincing user interface.
+1. Connect existing tools.
+2. Design a visible workflow with owners and conditions.
+3. Run it with review points and readable history.
 
-### Core objectives
+## Stack
 
-- Communicate the product's value proposition immediately.
-- Explain the problem and the proposed solution.
-- Demonstrate the product through a realistic dashboard preview.
-- Present features in a logical sequence.
-- Explain a simple workflow from request to completion.
-- Support conversion through a clear call to action.
+Next.js App Router, React, TypeScript and custom CSS. The dashboard filters to workflows needing review and supports selecting a workflow to inspect its steps.
 
-### Target audience
+## Run locally
 
-- Small business teams.
-- Startup founders.
-- Operations managers.
-- Freelancers working with multiple clients.
-- Small agencies managing recurring requests.
+```bash
+npm install
+npm run dev
+```
 
-### Product positioning
+## Disclosure
 
-A calmer workspace for teams that need to stay organized.
+Orbit is a fictional product concept. Dashboard values are sample data; no live integrations, accounts, payments or automation executions are connected.
